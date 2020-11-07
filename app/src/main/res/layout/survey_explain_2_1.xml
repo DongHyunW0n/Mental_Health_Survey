@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:weightSum="10">
+
+    <TextView
+
+        android:layout_weight="2"
+        android:id="@+id/explain_2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="상태불안 평가 설문지(STAI-S)"
+        android:textSize="30sp"
+        android:textColor="#03A9F4"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:text="각 문항을 읽고, 바로 지금 이 순간에 자신의 느낌과 상태를 가장 잘 나타내는 정도에 따라서 체크해주시기 바랍니다.\n(20문항)"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:padding="25dp">
+    </TextView>
+
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/next_btn5"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#C7C7C7"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="다음"
+        android:textColor="#000000"
+        android:textSize="30sp">
+    </Button>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:weightSum="10">
+
+    <TextView
+
+        android:layout_weight="2"
+        android:id="@+id/explain_3_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="스트레스상황 대처검사"
+        android:textSize="30sp"
+        android:textColor="#03A9F4"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:text="다음 질문들에 자신에게 가장 가까운 답을 클릭하여 주십시오.\n(48문항)"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:padding="20dp">
+    </TextView>
+
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/next_btn9"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#C7C7C7"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="다음"
+        android:textColor="#000000"
+        android:textSize="30sp">
+    </Button>
+
+
+
+
+
+
+</LinearLayout>

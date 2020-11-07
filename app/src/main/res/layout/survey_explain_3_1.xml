@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:weightSum="10">
+
+    <TextView
+
+        android:layout_weight="2"
+        android:id="@+id/explain_3_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="한국판 지각된 스트레스 척도"
+        android:textSize="30sp"
+        android:textColor="#03A9F4"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:text="지난 한 달 동안 느꼈던 기분이나 생각에 대해 묻는 문장입니다. 본인의 기분과 생각을 잘 나타내어 주는 답을 클릭하여 주십시오.\n(10문항)"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:padding="24dp">
+    </TextView>
+
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/next_btn7"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#C7C7C7"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="다음"
+        android:textColor="#000000"
+        android:textSize="30sp">
+    </Button>
+
+
+
+
+
+
+</LinearLayout>

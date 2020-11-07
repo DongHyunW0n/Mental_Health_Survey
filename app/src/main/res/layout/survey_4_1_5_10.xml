@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5/9"
+            android:textSize="20dp"
+            android:textColor="#03A9F4"
+            android:layout_alignParentLeft="true">
+        </TextView>
+
+
+        <Button
+            android:id="@+id/exit_button_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape_exit"
+            android:text="나가기"
+            android:layout_alignParentRight="true"></Button>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="피츠버그 수면질 척도"
+            android:textSize="25dp"
+            android:textColor="#03A9F4"
+            android:textStyle="bold"
+            android:gravity="center"
+            >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5">
+        <TextView
+            android:id="@+id/question_4_1_4"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="(5-10)\n수면중 위를 제외한 다른 이유로 인해 깬 적이 있다면, 어떤 이유인지 간단히 적어 주세요."
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/problem_shape">
+        </TextView>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="65dp"
+        android:paddingTop="5dp">
+
+        <EditText
+            android:id="@+id/input_4_1_5_10"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:background="@drawable/edittext_border"
+            android:inputType="number"
+            android:textColor="#2196F3"
+            android:textSize="65dp">
+        </EditText>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <Button
+            android:id="@+id/fourth_1_5_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/clickbutton"
+            android:text="전혀없음"
+            android:textColor="#000000"
+            android:textSize="30dp">
+        </Button>
+        <Button
+            android:id="@+id/fourth_1_5_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/clickbutton"
+            android:text="일주일에 1회 미만"
+            android:textColor="#000000"
+            android:textSize="30dp">
+        </Button>
+        <Button
+            android:id="@+id/fourth_1_5_1_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/clickbutton"
+            android:text="일주일에 1~2번"
+            android:textColor="#000000"
+            android:textSize="30dp">
+        </Button>
+        <Button
+            android:id="@+id/fourth_1_5_1_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/clickbutton"
+            android:text="일주일에 3번 이상"
+            android:textColor="#000000"
+            android:textSize="30dp">
+        </Button>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="4">
+
+
+
+        <Button
+            android:id="@+id/survey_4_1_5_10_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape_next"
+            android:text="다음"
+            android:textSize="40dp"
+            android:layout_centerInParent="true"
+            ></Button>
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

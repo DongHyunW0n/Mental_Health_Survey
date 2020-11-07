@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:weightSum="10">
+
+    <TextView
+
+        android:layout_weight="2"
+        android:id="@+id/explain_3_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="스트레스상황 대처 행동 예비설문지"
+        android:textSize="25sp"
+        android:textColor="#03A9F4"
+        android:textStyle="bold">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:text="다음은 일반적으로 스트레스 상황에서 보일 수 있는 행동들을 나타낸 것입니다. 당신이 스트레스 상황에서 스트레스 해소를 위해 다음의 행동들을 얼마나 자주 하게 되는지에 해당하는 답을 클릭하여 주십시오.\n(50문항)"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:padding="20dp">
+    </TextView>
+
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/next_btn10"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#C7C7C7"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="다음"
+        android:textColor="#000000"
+        android:textSize="30sp">
+    </Button>
+
+
+
+
+
+
+</LinearLayout>

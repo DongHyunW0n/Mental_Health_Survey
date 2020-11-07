@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+      >
+
+
+
+        <Button
+            android:id="@+id/select_2_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape_exit"
+            android:text="메인으로"
+            android:layout_alignParentRight="true"></Button>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="불안관련"
+            android:textSize="30dp"
+            android:textColor="#03A9F4"
+            android:textStyle="bold"
+            android:gravity="center"
+            >
+        </TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <Button
+            android:id="@+id/select_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/clickbutton"
+            android:text="상태불안 평가(STAI-S,20문항)"
+            android:textColor="#000000"
+            android:textSize="30dp">
+        </Button>
+        <Button
+            android:id="@+id/select_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/clickbutton"
+            android:text="상태불안 평가(STAI-T,20문항)"
+            android:textColor="#000000"
+            android:textSize="30dp">
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

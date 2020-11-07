@@ -1,47 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#ffffff"
     android:orientation="vertical"
-    android:weightSum="10"
-    tools:context=".Information_Gathering">
+    android:paddingHorizontal="20dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="8"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:text="심리상태 측정을 위한 어플에 오신것을 환영합니다 !"
-        android:textColor="#000000"
-        android:textSize="25dp"></TextView>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/next_btn"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="73dp"
-            android:background="@drawable/buttonshape"
-            android:shadowColor="#C7C7C7"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="5"
-            android:text="다음"
-            android:textColor="#000000"
-            android:textSize="30sp"></Button>
+            android:layout_height="312dp"
+            android:layout_weight="10"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/intro">
+            </ImageView>
+
+            <EditText
+                android:id="@+id/Input_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="이름을 입력하세요"
+                android:inputType="text"
+                android:textColorHint="#2196F3"
+                android:textCursorDrawable="@null"
+                android:textColor="#2196F3"/>
+
+            <EditText
+                android:id="@+id/Input_Age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="나이를 입력하세요"
+                android:inputType="number"
+                android:textColorHint="#2196F3"
+                android:textCursorDrawable="@null"
+                android:textColor="#2196F3"/>
+
+            <EditText
+                android:id="@+id/Input_Sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="성별을 입력하세요"
+                android:inputType="text"
+                android:textColorHint="#2196F3"
+                android:textCursorDrawable="@null"
+                android:textColor="#2196F3"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:orientation="vertical"
+            android:layout_weight="4"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="정보 수집에 동의하신다면 다음을 눌러주세요"
+                android:textColor="#FA1010"
+                android:textSize="20dp">
+            </TextView>
+
+            <Button
+                android:id="@+id/next_btn2"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#C7C7C7"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="다음"
+                android:textColor="#000000"
+                android:textSize="30sp">
+            </Button>
+        </LinearLayout>
+
 
 
     </LinearLayout>
 
 
-
-
-
-</LinearLayout>

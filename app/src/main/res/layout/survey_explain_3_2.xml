@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:weightSum="10">
+
+    <TextView
+
+        android:layout_weight="2"
+        android:id="@+id/explain_3_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="스트레스 반응 척도"
+        android:textSize="30sp"
+        android:textColor="#03A9F4"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:text="다음 문항들은 여러분이 일상생활에서 스트레스를 받았을 때 경험할 수 있는 것들입니다. 각 문항을 주의깊게 읽으면서 오늘을 포함하여 지난 일주일(7일(동안에 어느 정도로 경험했는지를 클릭하여 주십시오. 너무 오랫동안 생각하지 마시고 될 수 있으면 빨리 응답하시길 바랍니다.(39문항)"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:padding="24dp">
+    </TextView>
+
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/next_btn8"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#C7C7C7"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="다음"
+        android:textColor="#000000"
+        android:textSize="30sp">
+    </Button>
+
+
+
+
+
+
+</LinearLayout>

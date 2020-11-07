@@ -4,34 +4,28 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Information_Gathering extends AppCompatActivity {
+public class Survey_4_1_1 extends AppCompatActivity {
 
-    Button next_button2;
-    EditText Input_Name;
-    EditText Input_Age;
-    EditText Input_Sex;
-
+    Button exit_button_4_1;
 
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.information_gathering);
+        setContentView(R.layout.survey_4_1_1);
 
-
-        next_button2 = findViewById(R.id.next_btn2);
-
-        next_button2.setOnClickListener(new View.OnClickListener() {
+        exit_button_4_1 = findViewById(R.id.exit_button_4_1);
+        exit_button_4_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Information_Gathering.this, Survey_Select.class);
+                Intent intent = new Intent(Survey_4_1_1.this, Survey_Select_4.class);
                 startActivity(intent);
             }
         });
+
     }
 }

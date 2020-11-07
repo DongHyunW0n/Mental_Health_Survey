@@ -16,7 +16,7 @@ public class Starting_Screen extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(getApplicationContext(), Information_Gathering.class);
+                Intent intent = new Intent(getApplicationContext(), First_Page.class);
                 startActivity(intent);
                 finish();
 

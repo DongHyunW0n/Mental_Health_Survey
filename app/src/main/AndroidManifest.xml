@@ -19,10 +19,58 @@
 
 
         </activity>
+        <activity android:name=".First_Page">
+        </activity>
         <activity android:name=".Information_Gathering">
-
+        </activity>
+        <activity android:name=".Survey_Explain_1_1">
+        </activity>
+        <activity android:name=".Survey_1_1">
+        </activity>
+        <activity android:name=".Survey_1_2">
+        </activity>
+        <activity android:name=".Result_1">
+        </activity>
+        <activity android:name=".Survey_Explain_2_1">
+        </activity>
+        <activity android:name=".Survey_2_1">
+        </activity>
+        <activity android:name=".Survey_Explain_2_2">
+        </activity>
+        <activity android:name=".Survey_2_2">
+        </activity>
+        <activity android:name=".Survey_Explain_3_1">
+        </activity>
+        <activity android:name=".Survey_3_1">
+        </activity>
+        <activity android:name=".Survey_Explain_3_2">
+        </activity>
+        <activity android:name=".Survey_3_2">
+        </activity>
+        <activity android:name=".Survey_Explain_3_3">
+        </activity>
+        <activity android:name=".Survey_3_3">
+        </activity>
+        <activity android:name=".Survey_Explain_3_4">
+        </activity>
+        <activity android:name=".Survey_3_4">
+        </activity>
+        <activity android:name=".Survey_Explain_4_1">
+        </activity>
+        <activity android:name=".Survey_4_1_1">
+        </activity>
+        <activity android:name=".Survey_Select">
 
         </activity>
+        <activity android:name=".Survey_Select_1">
+
+        </activity>
+        <activity android:name=".Survey_Select_2"></activity>
+        <activity android:name=".Survey_Select_3"></activity>
+        <activity android:name=".Survey_Select_4"></activity>
+
+
+
     </application>
 
 </manifest>
