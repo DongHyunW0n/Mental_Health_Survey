@@ -68,6 +68,13 @@
         <activity android:name=".Survey_Select_2"></activity>
         <activity android:name=".Survey_Select_3"></activity>
         <activity android:name=".Survey_Select_4"></activity>
+        <activity android:name=".Survey_4_1_2"></activity>
+        <activity android:name=".Survey_4_1_3"></activity>
+        <activity android:name=".Survey_4_1_4"></activity>
+        <activity android:name=".Survey_4_1_5_1"></activity>
+        <activity android:name=".Survey_4_1_5_10"></activity>
+        <activity android:name=".Survey_4_1_6"></activity>
+
 
 
 

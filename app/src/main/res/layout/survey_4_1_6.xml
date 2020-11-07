@@ -22,7 +22,7 @@
 
 
         <Button
-            android:id="@+id/exit_button_1_1"
+            android:id="@+id/exit_button_4_1_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/buttonshape_exit"
@@ -72,7 +72,7 @@
         android:padding="6dp">
 
         <Button
-            android:id="@+id/fourth_4_1_6_1"
+            android:id="@+id/fourth_1_6_1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -82,7 +82,7 @@
             android:textSize="30dp">
         </Button>
         <Button
-            android:id="@+id/fourth_4_1_6_2"
+            android:id="@+id/fourth_1_6_2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -92,7 +92,7 @@
             android:textSize="30dp">
         </Button>
         <Button
-            android:id="@+id/fourth_4_1_6_3"
+            android:id="@+id/fourth_1_6_3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -102,7 +102,7 @@
             android:textSize="30dp">
         </Button>
         <Button
-            android:id="@+id/fourth_4_1_6_4"
+            android:id="@+id/fourth_1_6_4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
